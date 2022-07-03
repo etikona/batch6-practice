@@ -1,0 +1,14 @@
+.me{
+    color: coral;
+}
+main{
+    display: flex;
+    margin-left: 20px;
+}
+button{
+    background-color: orangered;
+    padding: 8px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
