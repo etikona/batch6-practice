@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 0px;
 }
 
 .me{
@@ -8,7 +8,7 @@ body{
 }
 #banner{
     background-image: url(images/top-banner.png);
-    background-repeat: none;
+    background-repeat: no-repeat;
 }
 .part{
     display: flex;
@@ -29,8 +29,31 @@ button{
     width: 25%;
     
 }
-
 a {
     text-decoration: none;
     color: white;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.full-stack{
+    border-left: 4px solid salmon;
+    box-shadow: 8px 4px 8px 10px #d2d2c9;
+}
+
+.baby-stack{
+    border-left: 4px solid navy;
+    box-shadow: 8px 4px 8px 10px #d2d2c9;
+}
+
+footer{
+    margin-top: 10%;
+    text-align: center;
 }
