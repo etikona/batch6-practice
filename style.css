@@ -1,14 +1,36 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
 .me{
     color: coral;
 }
-main{
+#banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: none;
+}
+.part{
     display: flex;
     margin-left: 20px;
+    margin-top: 20px;
+
+}
+.dream{
+    margin-top: 15px;
+    margin-left: 10px;
 }
 button{
     background-color: orangered;
+    font-weight: 600;
     padding: 8px;
-    color: white;
     border-radius: 3px;
     border: none;
+    width: 25%;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
